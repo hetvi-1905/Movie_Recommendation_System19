@@ -8,6 +8,7 @@ A Web Base user-input Movie Recommendation Engine using Cosine Similarity, built
 Such recommender are used to filter and predict only those movies that a corresponding user is most likely to want to watch.
 
 ## 🎥 Demo Video 
+![iv3] (https://user-images.githubusercontent.com/84613393/198866938-39c80bf8-d702-4adf-a88d-045281625890.mp4)
 
 
 ## 📄 Dataset
@@ -35,6 +36,9 @@ Output
 ![Screenshot (486)](https://user-images.githubusercontent.com/84613393/198864648-4883732f-4091-43e6-8ced-334c3f37caa5.png)
 
  ## 🔨 Tech-Stack
+
+
+
  <ul>
   <li> Front-end:Streamlit </li>
   <li> Back-end:Flask </li>
