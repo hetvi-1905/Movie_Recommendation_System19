@@ -1,19 +1,19 @@
-# Movie_Recommendation_System🎬 
+# 🎬Movie_Recommendation_System🍿
 ![Movie_Recommendation_System19](https://user-images.githubusercontent.com/84613393/198863557-3aed9695-a34c-4cf9-b574-3a80a8b04ee2.png)
 
-## Brief Intro 🖊
+## 🖊 Brief Intro 
 A Web Base user-input Movie Recommendation Engine using Cosine Similarity, built to give recommendation based on the user's previous choice of a movie.
 
-## Importance 📌
+## 📌 Importance 
 Such recommender are used to filter and predict only those movies that a corresponding user is most likely to want to watch.
 
-## Demo Video 📽
+## 🎥 Demo Video 
 
 
-## Dataset 📄
+## 📄 Dataset
 The data set used for this notebook is a TMDB 5000 Movies which was generated from The Movie Database API and uses the TMDb API.
 
-## Pipeline 🔁
+## 🔁 Pipeline 
 <ol>
   <ul> Merging the Genre, Cast , Crew , Keywords columns into one column named Tags.</ul>
   <ul> Then clearing out all the other columns except Movie_ID , Title as Movie Name and Tags. </ul>
@@ -22,11 +22,11 @@ The data set used for this notebook is a TMDB 5000 Movies which was generated fr
   <ul> Sorting and giving top 5 nearest cosine similar movies based on the user input choice of movie. </ul>  
 </ol>
 
-## Deployment
+## 🎯 Deployment
 I have deployed the ML-Pipeline on a Web application using Flask.
 Heroku deployment link - https://movie-recommender2002.herokuapp.com/
 
-## Screenshots
+## 📷 Screenshots
 Landing Page 
 ![Screenshot (484)](https://user-images.githubusercontent.com/84613393/198864582-9814d904-934b-4af0-b29b-c068b071d43d.png)
 User Input
