@@ -15,17 +15,16 @@ https://user-images.githubusercontent.com/84613393/198866938-39c80bf8-d702-4adf-
 The data set used for this notebook is a TMDB 5000 Movies which was generated from The Movie Database API and uses the TMDb API.
 
 ## 🔁 Pipeline 
-<ol>
-  <ul> Merging the Genre, Cast , Crew , Keywords columns into one column named Tags.</ul>
-  <ul> Then clearing out all the other columns except Movie_ID , Title as Movie Name and Tags. </ul>
-  <ul> Using Stemming, Count Vectorization and Feature Extraction on Tags column , thus creating Vectors for each movie. </ul>
-  <ul> Applying Cosine Similarity on each Movie Vectors. </ul>
-  <ul> Sorting and giving top 5 nearest cosine similar movies based on the user input choice of movie. </ul>  
-</ol>
+<ul>
+  <li> Merging the Genre, Cast , Crew , Keywords columns into one column named Tags.</li>
+  <li> Then clearing out all the other columns except Movie_ID , Title as Movie Name and Tags. </li>
+  <li> Using Stemming, Count Vectorization and Feature Extraction on Tags column , thus creating Vectors for each movie. </li>
+  <li> Applying Cosine Similarity on each Movie Vectors. </li>
+  <li> Sorting and giving top 5 nearest cosine similar movies based on the user input choice of movie. </li>  
+</ul>
 
-## 🎯 Deployment
+## 🎯 Deployment at Heroku
 I have deployed the ML-Pipeline on a Web application using Flask.
-Heroku deployment link:
 https://movie-recommender2002.herokuapp.com/
 
 ## 📷 Screenshots
