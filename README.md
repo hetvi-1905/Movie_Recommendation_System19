@@ -25,7 +25,8 @@ The data set used for this notebook is a TMDB 5000 Movies which was generated fr
 
 ## 🎯 Deployment
 I have deployed the ML-Pipeline on a Web application using Flask.
-Heroku deployment link - https://movie-recommender2002.herokuapp.com/
+Heroku deployment link:
+https://movie-recommender2002.herokuapp.com/
 
 ## 📷 Screenshots
 Landing Page 
